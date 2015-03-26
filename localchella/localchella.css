@@ -1,0 +1,343 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end css reset */
+
+body {
+  background-color:#E9E9E9;
+  font: 16px/24px normal Arial,sans-serif;
+  color: #333;
+}
+
+.header {
+        background-color: #02081f;
+}
+
+.header-logo {
+        margin: 15px 100px 0px 20px;
+}
+
+.menu, .menu a, .menu a:visited, .menu a:hover, .menu a:active {
+	font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0px 0px 20px 0px;
+}
+
+.menu-nav {
+    padding: 0px 15px;
+    float: left;
+}
+
+.highlights {
+	font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #a6aec4;
+    padding: 0px 0px 0px 0px;
+    width: 240px;
+    background-color: #243659;
+    text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	border: 20px solid #e3e3e3;
+    margin: 30px 0px;
+}
+
+.content {
+	background-color:#cecdc0;
+	margin: 0px;
+	padding: 40px 0px;
+}
+
+.h1-icon {
+	margin: 35px -10px 0px 20px;
+    float: left;
+}
+  
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size: 40px;
+	color: #4c6a9a;
+	padding: 50px 15px 8px 20px;
+    float: left;
+}
+
+hr {
+  background: #476595; 
+  float: none; 
+  height: 2px;
+  margin: 62px 20px 0px 0px;
+  border: none;
+}
+  
+.footer, .footer a, .footer a:visited, .footer a:active {
+	font: 12px normal Arial,sans-serif;
+    color: #B4B0A3;
+    margin: 30px 0px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+	font: 12px normal Arial,sans-serif;
+    color: #B4B0A3;
+    margin: 30px 0px;
+    text-decoration: underline;
+}
+
+.footer img {
+	margin: 0px 10px 0px 10px;
+    vertical-align: top;
+    text-align: center;
+    width: 50px;
+}
+
+.lineup {
+	background-color:#b4b0a3;
+	margin: 10px 10px;
+	border: 10px solid #e3e3e3;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size: 20px;
+	color: #5d5d5b;
+	padding: 0px 0px 20px 0px;
+    width: 254px;
+    float: left;
+}
+
+.lineup img {
+    width: 254px;
+    padding-bottom: 20px;
+}
+
+.lineup a:link, .lineup a:visited, .lineup a:active {
+    text-decoration: none;
+    color: #5d5d5b;
+}
+
+.blog-title, .blog-title a, .blog-title a:visited, .blog-title a:hover, .blog-title a:active {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size: 24px;
+    padding: 0px 0px 30px 30px;
+	color: #5d5d5b;
+    text-align: left;
+    text-decoration: none;
+}
+
+.blog {
+    text-align: left;
+    margin: 0px 30px;
+}
+
+.blog a, .blog a:visited, .blog a:active, .blog a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #6687b6;
+}
+
+li {
+   margin: 0px 0px 20px 0px;
+}
+
+.factoid {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size: 30px;
+    padding: 20px 0px 0px 0px;
+	color: #991346;
+    text-align: left;
+}
+
+.blog-ig {
+	margin: 18px;
+    width: 320px;
+}
+
+.history {
+	background-color:#6687b6;
+	margin: 10px 20px;
+	border: 10px solid #e3e3e3;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+	font-size: 30px;
+	color: #FFFFFF;
+	padding: 0px 0px 20px 0px;
+    width: 475px;
+    float: left;
+}
+
+.history img {
+    width: 475px;
+    padding-bottom: 20px;
+}
+
+.history a:link, .history a:visited, .history a:active {
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.history-text {
+	color:#cecdc0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.map-title, .map-title a, .map-title a:visited, .map-title a:hover, .map-title a:active {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+	font-size: 24px;
+    padding: 0px 0px 30px 15px;
+	color: #5d5d5b;
+    text-align: left;
+    text-decoration: none;
+}
+ 
+  /* table */
+table.tablesorter {
+	margin-top: 0px;
+	margin-bottom: -1px;
+	width: 1070px;
+}
+
+/* table headers */
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #cecdc0;
+	border-bottom: 1px solid #dadbd6;
+	font-size: 16px;
+	text-align: left;
+	color: #5d5d5b;
+    font-weight: bold;
+	padding: 4px;
+}
+
+/* table header up-down icon */
+table.tablesorter thead tr .header {
+	background-image: url(images/bg-off.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+/* table header up-down icon hover state */
+table.tablesorter thead tr .header:hover, table.tablesorter thead tr .header:focus {
+	background-image: url(images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+/* table header sort ascending icon */
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(images/asc.gif);
+}
+
+/* table header sort descending icon */
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(images/desc.gif);
+}
+
+/* table header bg color of sorted column */
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #cecdc0;
+}
+
+/* styles the DATE td */
+table.tablesorter tbody td {
+	padding: 15px 5px 15px 10px;
+	border-bottom: 1px solid #dadbd6;
+	vertical-align: center;
+    text-align: left;
+	font-size: 17px;
+	color: #5d5d5b;
+}
+
+/* styles the ARTIST td */
+table.tablesorter td + td, table.tablesorter td + td a:link, table.tablesorter td + td a:visited { 
+	padding: 15px 5px 15px 5px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #6687b6;
+    font-weight: bold;
+    text-decoration: normal;
+}
+
+/* styles the ARTIST td links */
+table.tablesorter td + td a:hover, table.tablesorter td + td a:active { 
+	text-decoration: underline;
+}
+
+/* styles the VENUE td */
+table.tablesorter td + td + td { 
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 240px;
+    color: #5d5d5b;
+}
+
+/* styles the COST td */
+table.tablesorter td + td + td + td { 
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 90px;
+    color: #991346;
+    text-align: right;
+    padding-right: 30px;
+}

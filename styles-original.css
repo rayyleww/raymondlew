@@ -1,0 +1,860 @@
+body {
+  background-image:url("images/bg.png");
+  background-color:#E9E9E9;
+  margin: 0 0 0 0;
+  font: 13px/17px Arial,sans-serif;
+  color: #333;
+}
+
+img {
+	border: 0;
+}
+
+table, tr, td {
+	padding: 0;
+	border-spacing: 0;
+	border: 0;
+}
+
+.header {
+	background-image: url('images/header_bg.png');	
+	text-align: center;
+}
+
+.subheader {
+	background-image: url('images/subheader_bg.png');
+}
+
+.subheader-left {
+	background-image: url('images/subheader_bg.png');	
+	color: #D7D7D7;
+	text-align: left;
+	padding-left: 16px;
+	height: 29px;
+	width: 700px;
+}
+
+.subheader-right {
+	background-image: url('images/subheader_bg.png');	
+	color: #D7D7D7;
+	text-align: right;
+	padding-right: 16px;
+	height: 29px;
+	width: 300px;
+}
+
+.headerad, .headerad a:link, .headerad a:visited {
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+}
+
+.headerad a:hover, .headerad a:active {
+	color: #333;
+	text-decoration: underline;
+}
+
+.headerad-more, .headerad-more a:link, .headerad-more a:visited {
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+}
+
+.headerad a:hover, .headerad a:active {
+	color: #333;
+	text-decoration: underline;
+}
+
+.snapshot {
+	background-color:#FFF;
+	margin: 10px 5px 10px 10px;
+	padding: 15px;
+	border-left: 1px solid #CECECE;
+	border-bottom: 1px solid #ADADAD;
+	border-right: 1px solid #CECECE;
+}
+
+.ss-photo {
+	float: left;
+	padding: 0 15px 0 0;
+}
+
+.ss-name {
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: bold;
+}	
+
+.ss-title {
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 2px;
+}
+
+.ss-location {
+	font-size: 13px;
+	line-height: 17px;
+	color: #666;
+	margin-top: 1px;
+}
+
+.ss-exp1 {
+	font-size: 11px;
+	line-height: 17px;
+	color: #999;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+
+.ss-exp2 {
+	margin-top: 20px;
+}
+
+.ss-viewconcerts {
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	margin-left: -3px;
+	background: url(images/ss-viewconcerts.png);
+	display: block;
+	height: 35px;
+	width: 181px;
+	text-indent: -9999px;
+	float: left;
+}
+
+.ss-viewconcerts:hover, .ss-viewconcerts:focus {
+	background-position: 0 -35px;
+}
+
+.ss-money {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #0077B5;
+	float: right;
+	text-align: right;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+.ss-caption {
+	font-size: 11px;
+	line-height: 20px;
+	color: #999;
+	font-weight: normal;
+	text-align: right;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.ss-footer {
+	border-top: 1px dashed #ccc;
+	font-size: 11px;
+	background-color: #F6F6F6;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666;
+}
+
+.ss-url, .ss-url a:link, .ss-url a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+.ss-url a:hover, .ss-url a:active {
+	color: #069;
+}
+
+.ss-www {
+	background: url(images/contact-www.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: 20px;
+	float: left;
+	margin: 0 10px;
+}
+
+.ss-www:hover, .ss-www:focus {
+	background-position: 0 0;
+}
+
+.ss-icons {
+	float: right;
+	background-color: #ECECEC;
+	margin-top: -10px;
+	margin-right: 0px;
+	margin-left: -15px;
+	margin-bottom: -10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 11px;
+	padding-left: 10px;
+	border-left: 1px solid #CECECE;
+}
+
+.ss-instagram {
+	background: url(images/contact-instagram.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-instagram:hover, .ss-instagram:focus {
+	background-position: 0 0;
+}
+
+.ss-twitter {
+	background: url(images/contact-twitter.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-twitter:hover, .ss-twitter:focus {
+	background-position: 0 0;
+}
+
+.ss-tumblr {
+	background: url(images/contact-tumblr.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-tumblr:hover, .ss-tumblr:focus {
+	background-position: 0 0;
+}
+
+.ss-youtube {
+	background: url(images/contact-youtube.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-youtube:hover, .ss-youtube:focus {
+	background-position: 0 0;
+}
+
+.ss-google {
+	background: url(images/contact-google.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-google:hover, .ss-google:focus {
+	background-position: 0 0;
+}
+
+.ss-spotify {
+	background: url(images/contact-spotify.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-spotify:hover, .ss-spotify:focus {
+	background-position: 0 0;
+}
+
+.ss-lastfm {
+	background: url(images/contact-lastfm.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-lastfm:hover, .ss-lastfm:focus {
+	background-position: 0 0;
+}
+
+.ss-songkick {
+	background: url(images/contact-songkick.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-songkick:hover, .ss-songkick:focus {
+	background-position: 0 0;
+}
+
+.ss-linkedin {
+	background: url(images/contact-linkedin.png);
+	background-position: 0 -16px;
+	display: block;
+	height: 16px;
+	width: 16px;
+	text-indent: -9999px;
+	float: left;
+	margin: 0 9px;
+}
+
+.ss-linkedin:hover, .ss-linkedin:focus {
+	background-position: 0 0;
+}
+
+.content {
+	background-color:#FFF;
+	margin: 10px 5px 10px 10px;
+	padding-top: 7px;
+	padding-left: 15px;
+	border-left: 1px solid #CECECE;
+	border-bottom: 1px solid #ADADAD;
+	border-right: 1px solid #CECECE;
+}
+
+.subcontent {
+	border-bottom: 1px solid #E8E8E8;
+	margin-right: 15px;
+}
+
+.content .content-title {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #333;
+	margin: -20px 0 0 -15px;
+	padding: 7.5px 20px 7.5px 20px;
+}
+		
+.subcontent-icon {
+	float:left;
+	margin-top: 35px;
+	margin-left: 6px;
+	margin-right: 10px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: normal;
+	padding-top: 28px;
+}
+
+.content p {
+	padding-top: 5px;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+}
+
+.content .education-title {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 7px;
+}
+
+.content .education-detail {
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: normal;
+	padding-top: 4px;
+	padding-left: 7px;
+}
+
+.content .education-time {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: normal;
+	color: #999;
+	padding-top: 4px;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+}
+
+.top {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.top-block {
+	width: 200px;
+	float: left;
+}		
+
+.top-image img {
+	margin-top: 20px;
+	margin-bottom: 4px;
+	width: 190px;
+}		
+
+.top-name, .top-name a:link, .top-name a:visited {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+}		
+
+.top-name a:hover, .top-name a:active {
+	text-decoration: underline;
+}
+
+.top-location {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+}		
+
+.regram {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.regram-block {
+	width: 154px;
+	float: left;
+}		
+
+.regram-image img {
+	margin-top: 20px;
+	margin-bottom: 4px;
+	width: 135px;
+}		
+
+.regram-name, .regram-name a:link, .regram-name a:visited {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}		
+
+.regram-name a:hover, .regram-name a:active {
+	color: #069;
+}
+
+.regram-venue {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+}		
+
+.regram-original, .regram-original a:link, .regram-original a:visited {
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #069;
+	text-decoration: none;
+}
+
+.regram-original a:hover, .regram-original a:active {
+	text-decoration: underline;
+}
+
+.retweets {
+	margin-left: 10px;
+	margin-top: 30px;
+	padding-bottom: 0px;
+}
+
+.retweets-block {
+	width: 620px;
+	float: left;
+}		
+
+.retweets-photo img {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	margin-right: 20px;
+	width: 100px;
+	float: left;
+}		
+
+.retweets-textblock {
+	width: 480px;
+	float: left;
+}		
+
+.retweets-name, .retweets-name a:link, .retweets-name a:visited {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+	margin-top: 10px;
+}		
+
+.retweets-name a:hover, .retweets-name a:active {
+	text-decoration: underline;
+}		
+
+.retweets-company, .retweets-company a {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	margin-bottom: 15px;
+	font-style: italic;
+}			
+
+.retweets-quote, .retweets-quote a {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.retweets-quote img {
+	margin-right: 8px;
+	margin-bottom: -2px;
+}
+
+.retweets-credit, .retweets-credit a {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	margin-bottom: 40px;
+}			
+
+.connections {
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.connections-block {
+	width: 310px;
+	float: left;
+}		
+
+.connections-photo img {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	width: 60px;
+	float: left;
+}		
+
+.connections-name, .connections-name a:link, .connections-name a:visited {
+	font-size: 13px;
+	line-height: 17px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+	margin-top: 20px;
+}		
+
+.connections-name a:hover, .connections-name a:active {
+	text-decoration: underline;
+}		
+
+.connections-company {
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+}		
+
+h4 {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #000;
+	padding-left: 5px;
+	padding-bottom: -20px;
+}
+
+.popular {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.popular-block {
+	width: 200px;
+	float: left;
+}		
+
+.popular-image img {
+	margin-bottom: 4px;
+	width: 190px;
+}		
+
+.popular-name, .popular-name a:link, .popular-name a:visited {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+.popular-name a:hover, .popular-name a:active {
+	color: #069;
+}
+
+.popular-venue, {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+}
+
+.following {
+	margin: 10px 0 0 10px;
+	padding-bottom: 30px;
+}
+
+.following-block {
+	width: 150px;
+	float: left;
+}		
+
+.following-image img {
+	margin: 20px 0 10px 0;
+	width: 130px;
+}		
+
+.following-name, .following-name a:link, .following-name a:visited {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}		
+
+.following-name a:hover, .following-name a:active {
+	color: #069;
+}
+
+.content-right {
+	background-color:#FFF;
+	margin: 10px 10px 10px 5px;
+	padding-top: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 1px solid #CECECE;
+	border-bottom: 1px solid #ADADAD;
+	border-right: 1px solid #CECECE;
+}
+
+.subcontent-right {
+	border-bottom: 1px solid #E8E8E8;
+	margin-right: 1px;
+	margin-top: 15px;
+}
+
+.visits-title {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}		
+
+.visits-nav-left {
+	margin-left: -15px;
+}
+
+.visits-westfield {
+	margin-right: -19px;
+	float:right;
+	width: 50px;
+	overflow: hidden;
+}
+
+.visits-nav-right {
+	margin-right: -16px;
+	float:right;
+	position: relative;
+	z-index: 0;
+}
+
+.visits-count {
+	font-size: 13px;
+	font-weight: bold;
+	color: #069;
+	margin-right: 10px;
+	margin-top: 8px;
+	margin-bottom: 4px;
+}		
+
+.visits-details {
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 15px;
+}		
+
+.months-block {
+	width: 280px;
+	float: left;
+	margin-bottom: 10px;
+}		
+
+.months-title {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}		
+
+.months-count {
+	font-size: 31px;
+	font-weight: bold;
+	float: left;
+	color: #333;
+	padding-bottom: 15px;
+	margin-right: 10px;
+}		
+
+.months-details {
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 15px;
+}		
+
+.dollar-title {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}		
+
+.dollar-count {
+	font-size: 13px;
+	font-weight: bold;
+	color: #069;
+	margin-right: 10px;
+}		
+
+.dollar-details {
+	font-size: 13px;
+	line-height: 17px;
+	padding-bottom: 15px;
+}		
+
+.connected-title {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}		
+
+.connected-graph {
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	background: url(images/connected-graph.png);
+	display: block;
+	height: 180px;
+	width: 215px;
+	text-indent: -9999px;
+	float: left;
+}
+
+.connected-graph:hover, .connected-graph:focus {
+	background-position: 0 -180px;
+}
+
+.listening-title {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}		
+
+.listening-disclaimer {
+	font-size: 12px;
+	line-height: 17px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	color: #CCC;
+	text-align: center;
+}		
+	
+.footer {
+	text-align: center;
+	margin-top: 15px;
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+	line-height: 25px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: #666;
+}
+
+.footer a:link, .footer a:visited {
+	color: #069;
+	text-decoration: none;
+}
+
+.footer a:hover, .footer a:active {
+	text-decoration: underline;
+}
+
+.group:before, .group:after {
+	content: '';
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group {
+	zoom: 1; /* IE6&7 */
+}

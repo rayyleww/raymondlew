@@ -1,0 +1,93 @@
+ /* table */
+table.tablesorter {
+	margin-top: 0px;
+	margin-bottom: -1px;
+	width: 1070px;
+}
+
+/* table headers */
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #cecdc0;
+	border-bottom: 1px solid #dadbd6;
+	font-size: 16px;
+	text-align: left;
+	color: #5d5d5b;
+    font-weight: bold;
+	padding: 4px;
+}
+
+/* table header up-down icon */
+table.tablesorter thead tr .header {
+	background-image: url(bg-off.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+/* table header up-down icon hover state */
+table.tablesorter thead tr .header:hover, table.tablesorter thead tr .header:focus {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+
+/* table header sort ascending icon */
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+
+/* table header sort descending icon */
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+
+/* table header bg color of sorted column */
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #cecdc0;
+}
+
+/* styles the DATE td */
+table.tablesorter tbody td {
+	padding: 15px 5px 15px 20px;
+	border-bottom: 1px solid #dadbd6;
+	vertical-align: center;
+    text-align: left;
+	font-size: 15px;
+	color: #5d5d5b;
+}
+
+/* styles the ARTIST td */
+table.tablesorter td + td, table.tablesorter td + td a:link, table.tablesorter td + td a:visited { 
+	padding: 15px 5px 15px 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6687b6;
+    font-weight: bold;
+    text-decoration: normal;
+}
+
+/* styles the ARTIST td links */
+table.tablesorter td + td a:hover, table.tablesorter td + td a:active { 
+	text-decoration: underline;
+}
+
+/* styles the VENUE td */
+table.tablesorter td + td + td { 
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 210px;
+    color: #5d5d5b;
+}
+
+/* styles the COST td */
+table.tablesorter td + td + td + td { 
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    width: 90px;
+    color: #991346;
+    text-align: right;
+    padding-right: 30px;
+}
